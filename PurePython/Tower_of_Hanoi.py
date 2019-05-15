@@ -104,6 +104,5 @@ B = [0] + [0] * n
 C = [0] + [0] * n
 # </editor-fold>
 towers(A, B, C)
-s = "Initial setup"
-print(s.center(3*n+5))
+print("Initial setup")
 toh(n, A, C, B)  # toh: Tower of Hanoi
