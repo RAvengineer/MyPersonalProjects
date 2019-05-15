@@ -100,8 +100,8 @@ Here, A is storing the index of the last disc in the first element of the list.
 And rest are the disc numbers!
 Similarly, for the rods B and C, the first element is the index of the last disc i.e. Empty 
 """
-B = [0] + [0] * n
-C = [0] + [0] * n
+B = [0] * (n + 1)
+C = [0] * (n + 1)
 # </editor-fold>
 towers(A, B, C)
 print("Initial setup")

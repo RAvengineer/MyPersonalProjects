@@ -3,7 +3,7 @@ print(w.center(75, '*'))
 match_no = s1 = s2 = d = 0
 
 # Instructions:
-print("\nPlayer 1 will be alloted 'X' \nand Player 2 will be alloted '0'")
+print("\nPlayer 1 will be allotted 'X' \nand Player 2 will be allotted '0'")
 print('Player 1 will play first and \nthe chance will be alternated, if you continue to play!')
 
 n1 = n2 = ''
