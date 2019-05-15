@@ -1,6 +1,6 @@
 # <editor-fold defaultstate="collapsed" desc="Code Description">
 """
-This is a visual solution of the famous old problem called 'Tower of Hanoi'
+This is a pictorial solution of the famous old problem called 'Tower of Hanoi'
 Tower of Hanoi is a mathematical puzzle where we have three rods and n disks.
 The objective of the puzzle is to move the entire stack to another rod,
 obeying the following simple rules:
@@ -10,7 +10,7 @@ and placing it on top of another stack i.e. a disk can only be moved
 if it is the uppermost disk on a stack.
 3) No disk may be placed on top of a smaller disk.
 
-The thing added is visual assistance of the modification done to the rods, which
+The thing added is pictorial assistance of the modification done to the rods, which
 effectively helps solving the problem.
 I took the above said idea as a Personal Project.
 The Rods with 3 disc is depicted as
