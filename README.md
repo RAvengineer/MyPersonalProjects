@@ -29,6 +29,9 @@ Projects  or code that I like to play around with. This helps me learn and under
       <ol>
         <li>
           <h3>Connect Four Game</h3>
+          <p>Used
+            <ol><li>HTML5</li><li>Javascript</li><li>CSS</li><ol>
+           </p>
         </li>
       </ol>
     </li>
