@@ -14,7 +14,7 @@ Projects  or code that I like to play around with. This helps me learn and under
           X  -  0  </pre>
         </li>
         <li>
-          <h3>Tower of Hanoi with Picotorial Assistance</h3>
+          <h3>Tower of Hanoi with Pictorial Assistance</h3>
           <pre>
                _|_   	    |    	    |
               __|__  	    |    	    |
