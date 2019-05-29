@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Connect Four</title>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Kalam|Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#" id="about">Connect Four</a>
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active" id="start">
+                <a class="nav-link" href="#">Start Game</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="Project.html">Play Again!</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#" id="ins">Instructions</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container jumbotron" style="text-align: center;">
+    <h1 style="color: red;">Welcome to Connect Four!</h1>
+    <hr style="color: red;">
+    <p id="instruction">Click on 'Start Game'!</p>
+</div>
+
+<style>
+    body{
+        font-family: 'Kalam', cursive;
+    }
+    td{
+        border: 4px solid black;
+        background-color: gray;
+        height: 100px;
+        width: 100px;
+
+        border-radius: 50%;
+        display: inline-block;
+        margin: 2px;
+    }
+    p{
+        font-size: 2em;
+    }
+    a{
+        font-size: 1.3em;
+    }
+    #r{
+        color: red;
+    }
+    #b{
+        color: blue;
+    }
+    #about{
+        font-family: 'Pacifico', cursive;
+        font-size: 2em;
+    }
+</style>
+
+<div class="container" align="center">
+    <table >
+        <tr> <td id="00"></td><td id="01"></td><td id="02"></td><td id="03"></td><td id="04"></td><td id="05"></td><td id="06"></td> </tr>
+        <tr> <td id="10"></td><td id="11"></td><td id="12"></td><td id="13"></td><td id="14"></td><td id="15"></td><td id="16"></td> </tr>
+        <tr> <td id="20"></td><td id="21"></td><td id="22"></td><td id="23"></td><td id="24"></td><td id="25"></td><td id="26"></td> </tr>
+        <tr> <td id="30"></td><td id="31"></td><td id="32"></td><td id="33"></td><td id="34"></td><td id="35"></td><td id="36"></td> </tr>
+        <tr> <td id="40"></td><td id="41"></td><td id="42"></td><td id="43"></td><td id="44"></td><td id="45"></td><td id="46"></td> </tr>
+        <tr> <td id="50"></td><td id="51"></td><td id="52"></td><td id="53"></td><td id="54"></td><td id="55"></td><td id="56"></td> </tr>
+    </table>
+</div>
+
+<script src="Brains.js"></script>
+</body>
+</html>
