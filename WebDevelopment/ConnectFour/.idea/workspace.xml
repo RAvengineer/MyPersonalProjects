@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b68cfced-e7c3-41a5-8193-82f3f9db66b5" name="Default Changelist" comment="Changes made for GitHub">
-      <change beforePath="$PROJECT_DIR$/../../PurePython/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PurePython/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="b68cfced-e7c3-41a5-8193-82f3f9db66b5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Project.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,10 +25,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/Project.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+            <state relative-caret-position="728">
+              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -67,6 +65,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Rahul Bera &lt;42903856+ravengineer@users.noreply.github.com&gt;" />
         <option value="Rahul &lt;rahul.rb554.rb3@gmail.com&gt;" />
       </list>
     </option>
@@ -76,8 +75,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Brains.js" />
-        <option value="$PROJECT_DIR$/Project.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Project.html" />
       </list>
     </option>
   </component>
@@ -93,7 +92,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,6 +103,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -148,6 +147,7 @@
       <updated>1559032404605</updated>
       <workItem from="1559032406208" duration="49787000" />
       <workItem from="1559156201020" duration="869000" />
+      <workItem from="1559157341407" duration="134000" />
     </task>
     <task id="LOCAL-00001" summary="Changes made for GitHub">
       <created>1559156369417</created>
@@ -156,17 +156,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559156369417</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Playing with GitHub">
+      <created>1559157382749</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559157382749</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50656000" />
+    <option name="totallyTimeSpent" value="50790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14879356" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1508043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -195,7 +202,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes made for GitHub" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes made for GitHub" />
+    <MESSAGE value="Playing with GitHub" />
+    <option name="LAST_COMMIT_MESSAGE" value="Playing with GitHub" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../../Video Lectures/Udemy - python-and-django-full-stack-web-developer-bootcamp/01 Course Introduction/005 Django2.0-Python-Full-Stack-Web-Developer-NEWmaster/10-jQuery/Part3_FrontEndProject.css">
@@ -227,7 +235,7 @@
     <entry file="file://$PROJECT_DIR$/../../../Video Lectures/Udemy - python-and-django-full-stack-web-developer-bootcamp/01 Course Introduction/005 Django2.0-Python-Full-Stack-Web-Developer-NEWmaster/09-Document_Object_Model/Part3_Events.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/Brains.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -238,10 +246,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/Project.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        <state relative-caret-position="728">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
         </state>
       </provider>
     </entry>
