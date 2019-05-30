@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b68cfced-e7c3-41a5-8193-82f3f9db66b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Project.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project.html" afterDir="false" />
+    <list default="true" id="b68cfced-e7c3-41a5-8193-82f3f9db66b5" name="Default Changelist" comment="Playing with GitHub v2">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PurePython/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PurePython/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Brains.js" beforeDir="false" afterPath="$PROJECT_DIR$/Brains.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Brains.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="101" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="344">
+              <caret line="181" selection-start-line="181" selection-end-line="181" />
               <folding>
                 <element signature="e#724#788#0" />
               </folding>
@@ -24,13 +28,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Project.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+            <state relative-caret-position="244">
+              <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../Video Lectures/Udemy - python-and-django-full-stack-web-developer-bootcamp/01 Course Introduction/005 Django2.0-Python-Full-Stack-Web-Developer-NEWmaster/10-jQuery/Part3_FrontEndProject.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../Video Lectures/Udemy - python-and-django-full-stack-web-developer-bootcamp/01 Course Introduction/005 Django2.0-Python-Full-Stack-Web-Developer-NEWmaster/10-jQuery/Part3_FrontEndProject.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-268">
+              <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../Video Lectures/Udemy - python-and-django-full-stack-web-developer-bootcamp/01 Course Introduction/005 Django2.0-Python-Full-Stack-Web-Developer-NEWmaster/10-jQuery/Part3_FrontEndProject.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -74,9 +100,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Brains.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Project.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Brains.js" />
       </list>
     </option>
   </component>
@@ -92,6 +118,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,7 +130,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -125,12 +151,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="Project.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd_Project/Project.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ConnectFour/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.Project.html" />
       </list>
     </recent_temporary>
@@ -148,6 +178,7 @@
       <workItem from="1559032406208" duration="49787000" />
       <workItem from="1559156201020" duration="869000" />
       <workItem from="1559157341407" duration="134000" />
+      <workItem from="1559157491511" duration="2226000" />
     </task>
     <task id="LOCAL-00001" summary="Changes made for GitHub">
       <created>1559156369417</created>
@@ -163,17 +194,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559157382749</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Playing with GitHub v2">
+      <created>1559157512406</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559157512406</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50790000" />
+    <option name="totallyTimeSpent" value="53016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1508043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15281501" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -203,12 +241,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes made for GitHub" />
     <MESSAGE value="Playing with GitHub" />
-    <option name="LAST_COMMIT_MESSAGE" value="Playing with GitHub" />
+    <MESSAGE value="Playing with GitHub v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Playing with GitHub v2" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../Video Lectures/Udemy - python-and-django-full-stack-web-developer-bootcamp/01 Course Introduction/005 Django2.0-Python-Full-Stack-Web-Developer-NEWmaster/10-jQuery/Part3_FrontEndProject.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Javascript/DOM_Project.js" />
     <entry file="file://$PROJECT_DIR$/../../../Video Lectures/Udemy - python-and-django-full-stack-web-developer-bootcamp/01 Course Introduction/005 Django2.0-Python-Full-Stack-Web-Developer-NEWmaster/10-jQuery/Part1_Basic_jQuery.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -220,36 +256,40 @@
         <state relative-caret-position="-858" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Video Lectures/Udemy - python-and-django-full-stack-web-developer-bootcamp/01 Course Introduction/005 Django2.0-Python-Full-Stack-Web-Developer-NEWmaster/09-Document_Object_Model/Part3_Events.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project.html" />
+    <entry file="file://$PROJECT_DIR$/../../../Video Lectures/Udemy - python-and-django-full-stack-web-developer-bootcamp/01 Course Introduction/005 Django2.0-Python-Full-Stack-Web-Developer-NEWmaster/10-jQuery/Part3_FrontEndProject.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../../Video Lectures/Udemy - python-and-django-full-stack-web-developer-bootcamp/01 Course Introduction/005 Django2.0-Python-Full-Stack-Web-Developer-NEWmaster/10-jQuery/Part3_FrontEndProject.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="71" column="12" selection-start-line="16" selection-start-column="8" selection-end-line="71" selection-end-column="12" />
+        <state relative-caret-position="-268">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../Video Lectures/Udemy - python-and-django-full-stack-web-developer-bootcamp/01 Course Introduction/005 Django2.0-Python-Full-Stack-Web-Developer-NEWmaster/10-jQuery/Part3_FrontEndProject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2106" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Video Lectures/Udemy - python-and-django-full-stack-web-developer-bootcamp/01 Course Introduction/005 Django2.0-Python-Full-Stack-Web-Developer-NEWmaster/09-Document_Object_Model/Part3_Events.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/Brains.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="244">
+          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
           <folding>
-            <element signature="e#724#788#0" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project.html">
+    <entry file="file://$PROJECT_DIR$/Brains.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+        <state relative-caret-position="344">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
+          <folding>
+            <element signature="e#724#788#0" />
+          </folding>
         </state>
       </provider>
     </entry>

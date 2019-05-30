@@ -188,7 +188,7 @@ $('#ins').click(function () {
        "Just click on the column you want to insert the dot/chip.\n" +
        "The one who creates a segment of 4 dots first, wins the game.\n" +
        "Click on 'Play Again!' to restart the game.\n" +
-       "Keep the zoom at 80% - 90% for better experience\n" +
+       "Keep the zoom at 80% - 90% for better experience on Desktops.\n" +
        "Enjoy playing :D");
 });
 
