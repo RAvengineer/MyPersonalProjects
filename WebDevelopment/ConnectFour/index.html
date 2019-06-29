@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <title>Connect Four</title>
     <script
-      src="https://code.jquery.com/jquery-3.4.1.js"
-      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-      crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Kalam|Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <!--Navbar-->
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <a class="navbar-brand" href="#" id="about">Connect Four</a>
+    <a class="navbar-brand" href="#">Connect Four</a>
     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -22,14 +23,38 @@
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active" id="start">
+            <li class="nav-item active mr-3" id="start">
                 <a class="nav-link" href="#">Start Game</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item active mr-3">
                 <a class="nav-link" href="index.html">Play Again!</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item active mr-3">
                 <a class="nav-link" href="#" id="ins">Instructions</a>
+            </li>
+            <li class="nav-item dropdown active mr-3">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    More
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#" id="about">About</a>
+                    <a class="dropdown-item"
+                       href="https://github.com/RAvengineer/MyPersonalProjects/tree/master/WebDevelopment/ConnectFour">Source
+                        Code</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://github.com/RAvengineer">My Github</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown active mr-3">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Other games
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item"
+                       href="https://ravengineer.github.io/MyPersonalProjects/WebDevelopment/TicTacToe/">Tic Tac Toe</a>
+                </div>
             </li>
         </ul>
     </div>
@@ -42,10 +67,11 @@
 </div>
 
 <style>
-    body{
+    body {
         font-family: 'Kalam', cursive;
     }
-    td{
+
+    td {
         border: 4px solid black;
         background-color: gray;
         height: 84px;
@@ -55,19 +81,24 @@
         display: inline-block;
         margin: 2px;
     }
-    p{
+
+    p {
         font-size: 2em;
     }
-    a{
+
+    a {
         font-size: 1.3em;
     }
-    #r{
+
+    #r {
         color: red;
     }
-    #b{
+
+    #b {
         color: blue;
     }
-    #about{
+
+    .navbar-brand {
         font-family: 'Pacifico', cursive;
         font-size: 2em;
     }
@@ -75,15 +106,73 @@
 
 <div class="container">
     <table align="center">
-        <tr> <td id="00"></td><td id="01"></td><td id="02"></td><td id="03"></td><td id="04"></td><td id="05"></td><td id="06"></td> </tr>
-        <tr> <td id="10"></td><td id="11"></td><td id="12"></td><td id="13"></td><td id="14"></td><td id="15"></td><td id="16"></td> </tr>
-        <tr> <td id="20"></td><td id="21"></td><td id="22"></td><td id="23"></td><td id="24"></td><td id="25"></td><td id="26"></td> </tr>
-        <tr> <td id="30"></td><td id="31"></td><td id="32"></td><td id="33"></td><td id="34"></td><td id="35"></td><td id="36"></td> </tr>
-        <tr> <td id="40"></td><td id="41"></td><td id="42"></td><td id="43"></td><td id="44"></td><td id="45"></td><td id="46"></td> </tr>
-        <tr> <td id="50"></td><td id="51"></td><td id="52"></td><td id="53"></td><td id="54"></td><td id="55"></td><td id="56"></td> </tr>
+        <tr>
+            <td id="00"></td>
+            <td id="01"></td>
+            <td id="02"></td>
+            <td id="03"></td>
+            <td id="04"></td>
+            <td id="05"></td>
+            <td id="06"></td>
+        </tr>
+        <tr>
+            <td id="10"></td>
+            <td id="11"></td>
+            <td id="12"></td>
+            <td id="13"></td>
+            <td id="14"></td>
+            <td id="15"></td>
+            <td id="16"></td>
+        </tr>
+        <tr>
+            <td id="20"></td>
+            <td id="21"></td>
+            <td id="22"></td>
+            <td id="23"></td>
+            <td id="24"></td>
+            <td id="25"></td>
+            <td id="26"></td>
+        </tr>
+        <tr>
+            <td id="30"></td>
+            <td id="31"></td>
+            <td id="32"></td>
+            <td id="33"></td>
+            <td id="34"></td>
+            <td id="35"></td>
+            <td id="36"></td>
+        </tr>
+        <tr>
+            <td id="40"></td>
+            <td id="41"></td>
+            <td id="42"></td>
+            <td id="43"></td>
+            <td id="44"></td>
+            <td id="45"></td>
+            <td id="46"></td>
+        </tr>
+        <tr>
+            <td id="50"></td>
+            <td id="51"></td>
+            <td id="52"></td>
+            <td id="53"></td>
+            <td id="54"></td>
+            <td id="55"></td>
+            <td id="56"></td>
+        </tr>
     </table>
 </div>
 
 <script src="Brains.js"></script>
+<script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 </html>
