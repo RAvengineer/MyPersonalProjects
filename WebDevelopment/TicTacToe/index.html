@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="SuitUp.css">
+    <link href="https://fonts.googleapis.com/css?family=Kalam|Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <!--<editor-fold defaultstate="collapsed" desc="Navbar">-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#" id="about">Tic Tac Toe</a>
+    <a class="navbar-brand" href="#">Tic Tac Toe</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -19,25 +20,41 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active" id="start">
+            <li class="nav-item active mr-3" id="start">
                 <a class="nav-link" href="#">Start Game</a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Play Again!</a>
+            <li class="nav-item active mr-3" id="newGame">
+                <a class="nav-link" href="index.html">New Game</a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#" id="ins">Instructions</a>
+            <li class="nav-item active mr-3" id="playAgain">
+                <a class="nav-link" href="#">Play Again</a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            <li class="nav-item active mr-3" id="ins">
+                <a class="nav-link" href="#">Instructions</a>
+            </li>
+            <li class="nav-item dropdown active mr-3">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">
-                    Dropdown
+                    More
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#" id="about">About</a>
+                    <a class="dropdown-item"
+                       href="https://github.com/RAvengineer/MyPersonalProjects/tree/master/WebDevelopment/TicTacToe">Source
+                        Code</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="https://github.com/RAvengineer">My Github</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown active mr-3">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Other games
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item"
+                       href="https://ravengineer.github.io/MyPersonalProjects/WebDevelopment/ConnectFour/">Connect
+                        Four</a>
                 </div>
             </li>
         </ul>
@@ -47,9 +64,9 @@
 
 <!--<editor-fold defaultstate="collapsed" desc="Jumbotron">-->
 <div class="container jumbotron">
-    <h1 class="display-3">Welcome to Tic-Tac-Toe</h1>
-    <hr class="my-2">
-    <p class="lead">Click on "Start Game!"</p>
+    <h1 style="color: red">Welcome to Tic-Tac-Toe</h1>
+    <hr class="my-2" style="color: red">
+    <p id="orders">Click on "Start Game!"</p>
 </div>
 <!--</editor-fold>-->
 
@@ -72,6 +89,18 @@
             <td id="c22"></td>
         </tr>
     </table>
+</div>
+<!--</editor-fold>-->
+
+<!--<editor-fold defaultstate="collapsed" desc="The Scoreboard">-->
+<div class="container">
+    <div class="alert alert-info mt-5" role="alert">
+        <div class="row" style="text-align: center">
+            <div class="col-4"><span id="player1"></span>: <span id="p1Score"></span></div>
+            <div class="col-4"><span id="player2"></span>: <span id="p2Score"></span></div>
+            <div class="col-4">Draw: <span id="drawScore"></span></div>
+        </div>
+    </div>
 </div>
 <!--</editor-fold>-->
 

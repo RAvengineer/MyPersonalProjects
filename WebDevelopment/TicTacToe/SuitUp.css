@@ -1,7 +1,11 @@
+body {
+    font-family: 'Kalam', cursive;
+}
+
 td {
     height: 150px;
     width: 150px;
-    font-size: 50px;
+    font-size: 2.8em;
     border: 10px solid black;
     /*background-color: purple;*/
     /*display:inline-block;*/
@@ -51,6 +55,7 @@ table {
 
 .jumbotron {
     text-align: center;
+    padding: 2em;
 }
 
 #r {
@@ -59,4 +64,25 @@ table {
 
 #b {
     color: blue;
+}
+
+#purple {
+    color: #b12aff;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+}
+
+a {
+    font-size: 1.3em;
+}
+
+p {
+    font-size: 2em;
+}
+
+.alert {
+    font-size: 1.8em;
 }
