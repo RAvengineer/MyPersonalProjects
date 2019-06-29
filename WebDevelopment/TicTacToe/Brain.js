@@ -223,6 +223,7 @@ $('#ins').click(function () {
         "the stalemate is called a cat game or a Draw.\n" +
         "If you continue playing the game, the mark X will be toggled\n" +
         "between the players.\n\n" +
+        "Keep the zoom at 80% - 90% for better experience on Desktops.\n" +
         "Enjoy playing :D");
 });
 
