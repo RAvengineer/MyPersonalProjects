@@ -79,11 +79,11 @@ function changeColor(cid) {
     }
     if(theReferee()===true){
         var winner = "Iron Man";
-        if(z%2==0) winner = p1;
+        if (z % 2 === 0) winner = p1;
         else winner = p2;
         $('h1').fadeOut();
         $('hr').fadeOut();
-        $('p').text(winner + ", you won the game!")
+        $('p').text(winner + ", you won the game!");
         //console.log(winner + " Won!"); //For Debugging
         gameFinished = true;
     }
