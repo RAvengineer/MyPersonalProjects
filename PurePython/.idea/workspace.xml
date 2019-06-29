@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f61da8-b1c5-461c-a95e-1ce9edf5651f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../WebDevelopment/ConnectFour/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebDevelopment/ConnectFour/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="220" />
     <option name="y" value="-20" />
     <option name="width" value="980" />
@@ -157,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1557939288218</updated>
       <workItem from="1557939290057" duration="3790000" />
-      <workItem from="1559151378404" duration="1343000" />
+      <workItem from="1559151378404" duration="1346000" />
     </task>
     <task id="LOCAL-00001" summary="Tower of Hanoi with Visual Assistance v1.0">
       <created>1557939624258</created>
@@ -198,10 +198,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5133000" />
+    <option name="totallyTimeSpent" value="5136000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17158177" />
