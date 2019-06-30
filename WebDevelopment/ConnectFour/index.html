@@ -14,7 +14,7 @@
 <body>
 
 <!--Navbar-->
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Connect Four</a>
     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId"
@@ -26,11 +26,14 @@
             <li class="nav-item active mr-3" id="start">
                 <a class="nav-link" href="#">Start Game</a>
             </li>
-            <li class="nav-item active mr-3">
-                <a class="nav-link" href="index.html">Play Again!</a>
+            <li class="nav-item active mr-3" id="newGame">
+                <a class="nav-link" href="index.html">New Game</a>
             </li>
-            <li class="nav-item active mr-3">
-                <a class="nav-link" href="#" id="ins">Instructions</a>
+            <li class="nav-item active mr-3" id="playAgain">
+                <a class="nav-link" href="#">Play Again</a>
+            </li>
+            <li class="nav-item active mr-3" id="ins">
+                <a class="nav-link" href="#">Instructions</a>
             </li>
             <li class="nav-item dropdown active mr-3">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
@@ -63,7 +66,7 @@
 <div class="container jumbotron" style="text-align: center;">
     <h1 style="color: red;">Welcome to Connect Four!</h1>
     <hr style="color: red;">
-    <p id="instruction">Click on 'Start Game'!</p>
+    <p id="orders">Click on 'Start Game'!</p>
 </div>
 
 <style>
@@ -101,6 +104,10 @@
     .navbar-brand {
         font-family: 'Pacifico', cursive;
         font-size: 2em;
+    }
+
+    #purple {
+        color: #b12aff;
     }
 </style>
 
@@ -163,7 +170,18 @@
     </table>
 </div>
 
-<script src="Brains.js"></script>
+<!--<editor-fold defaultstate="collapsed" desc="The Scoreboard">-->
+<div class="container">
+    <div class="alert alert-info mt-5" role="alert">
+        <div class="row" style="text-align: center">
+            <div class="col-4"><span id="player1"></span>: <span id="p1Score"></span></div>
+            <div class="col-4"><span id="player2"></span>: <span id="p2Score"></span></div>
+            <div class="col-4">Draw: <span id="drawScore"></span></div>
+        </div>
+    </div>
+</div>
+<!--</editor-fold>-->
+
 <script
         src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
@@ -174,5 +192,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+<script src="Brains.js"></script>
 </body>
 </html>
