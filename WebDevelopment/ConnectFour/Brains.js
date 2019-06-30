@@ -229,7 +229,7 @@ function checkResults() {
         /* ********************* */
         $("#orders").html(`<span id="purple">${winner}, you won the match!</span>`);
         updateScores(p1S, p2S, drawS);
-    } else if (z === 8) {
+    } else if (z === (noRows * noCols) - 1) {
         $("#orders").html(`<span id="purple">Oh! The match is a Draw!</span>`);
         drawS++;
         window.gameFinished = true;
